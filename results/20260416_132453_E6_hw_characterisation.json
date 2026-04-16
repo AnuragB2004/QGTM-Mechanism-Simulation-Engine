@@ -1,0 +1,10 @@
+{
+  "backend": "simulator",
+  "bell_fidelity": 1.0,
+  "depolarising_p": 0.0,
+  "counts": {
+    "11": 508,
+    "00": 516
+  },
+  "shots": 1024
+}

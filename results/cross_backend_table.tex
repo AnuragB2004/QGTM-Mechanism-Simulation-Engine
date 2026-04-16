@@ -1,0 +1,19 @@
+
+\begin{table}[!t]
+\centering
+\caption{Cross-Backend Hardware Validation of QGTM}
+\label{tab:cross_backend}
+\renewcommand{\arraystretch}{1.35}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Backend} & \textbf{Bell Fidelity} & \textbf{Noise $p$} &
+\textbf{PoA (QGTM)} & \textbf{PoA (VCG)} & \textbf{PoA Gain} \\
+\midrule
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\small
+\item All experiments: $N=4$ users, $q_s=0.3$, $\kappa=2.0$, shots=1024, 20 MC trials.
+\item PoA Gain = $(1 - \text{PoA}_\text{QGTM} / \text{PoA}_\text{VCG}) \times 100\%$.
+\end{tablenotes}
+\end{table}

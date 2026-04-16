@@ -1,0 +1,25 @@
+
+%% ── Hardware Results Table (auto-generated 2026-04-16 13:25 UTC) ──────────────
+\begin{table}[!t]
+\centering
+\caption{Hardware Validation Results on \texttt{simulator} (IBM Quantum)}
+\label{tab:hw_results}
+\renewcommand{\arraystretch}{1.35}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Mechanism} & \textbf{PoA (mean)} & \textbf{PoA (95\% CI)} & \textbf{Bell Fidelity} & \textbf{Dep.\ Noise $p$} \\
+\midrule
+QGTM (ours)   & 2071788.816 & $\pm$1657775.531 & \multirow{3}{*}{1.0000} & \multirow{3}{*}{0.0000} \\
+Classical VCG & 2.390  & $\pm$0.059  & & \\
+Quantum Non-IC& 2.805 & $\pm$0.125& & \\
+\midrule
+\textbf{PoA reduction (QGTM vs VCG)} & \multicolumn{2}{c}{\textbf{-86697279.0\%}} & -- & -- \\
+\bottomrule
+\end{tabular}}
+\begin{tablenotes}\small
+\item Experiments run with $N=4$ users, $q_s=0.3$, $\kappa=2.0$, shots=1024.
+\item Bell fidelity and depolarising noise $p$ measured via noise-benchmark circuit.
+\item 95\% confidence intervals computed over 20 Monte Carlo trials.
+\end{tablenotes}
+\end{table}
